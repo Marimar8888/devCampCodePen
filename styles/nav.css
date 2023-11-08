@@ -15,6 +15,7 @@
     display: flex;
     align-items: left;
     width: 200px;
+    padding-left: 10px;
 }
 .navigation-wrapper > .left-column > .logo img{
     width: 100%;
@@ -24,8 +25,8 @@
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
-    width: 500px;
-    margin: 0 250px 0 100px;
+    width: 560px;
+    margin: 0 180px 0 100px;
 
 }
 
@@ -38,6 +39,10 @@
     align-items: end;
 }
 
+.links-wrapper  > .nav-link{
+    margin-right: 10px;
+}
+
 .links-wrapper  > .nav-link  a {
    text-decoration: none;
    color: white;
@@ -47,4 +52,44 @@
 .links-wrapper > .nav-link #spark{
     color: grey;
     font-size: 1.2em;
+    margin-left: 20px;
+}
+
+/*Right-column Common Styles*/
+.navigation-wrapper > .right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 550px;
+   
+}
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
+    color: gray;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.nav-buttons-wrappers > .nav-button button {
+    padding: 15px;
+    width: 120px;
+    color: white;
+    font-weight: 500;
+    background-color: #9693935f; 
+    border: none;  
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+.nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
+    color: rgb(16, 203, 16);
+}
+
+.nav-buttons-wrappers > .nav-button > .fa-solid {
+    font-size: 2em;
+
 }
