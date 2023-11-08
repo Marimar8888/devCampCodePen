@@ -1,0 +1,12 @@
+.content-wrapper {
+    background: linear-gradient(to top, #000, #565555);
+    /* Establece el color de fondo inicial (negro) y el color final (gris oscuro) */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Asegura que el degradado cubra toda la altura de la ventana */
+    font-family: Roboto, sans-serif;
+    color: white; /* Cambia el color del texto para que sea legible en el fondo oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
