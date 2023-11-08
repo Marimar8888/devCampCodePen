@@ -1,0 +1,21 @@
+/* Common nav styles*/
+.navigation-wrapper {
+    height: 80px;
+    background-color: black;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    font-family: inherit;
+}
+
+/*Left-column Common Styles*/
+.navigation-wrapper > .left-column > .logo {
+    display: flex;
+    align-items: left;
+    width: 200px;
+}
+.navigation-wrapper > .left-column > .logo img{
+    width: 100%;
+}
