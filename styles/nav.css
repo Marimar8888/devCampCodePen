@@ -19,3 +19,32 @@
 .navigation-wrapper > .left-column > .logo img{
     width: 100%;
 }
+
+/*Center-column Common Styles*/
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+    margin: 0 250px 0 100px;
+
+}
+
+.title-links > .title {
+    color: #e2dc32;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.links-wrapper  > .nav-link  a {
+   text-decoration: none;
+   color: white;
+   font-weight: 900;
+   font-size: 1.4em;
+}
+.links-wrapper > .nav-link #spark{
+    color: grey;
+    font-size: 1.2em;
+}
