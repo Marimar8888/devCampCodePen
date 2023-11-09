@@ -8,6 +8,7 @@
     text-align: left;
     align-items: center;
     font-family: inherit;
+    
 }
 
 /*Left-column Common Styles*/
@@ -75,7 +76,7 @@
     padding: 10px 20px;
 }
 
-.nav-buttons-wrappers > .nav-button button {
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
     padding: 15px;
     width: 120px;
     color: white;
@@ -85,11 +86,11 @@
     border-radius: 5%;
     font-size: 1.2em;
 }
+
 .nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
     color: rgb(16, 203, 16);
 }
 
 .nav-buttons-wrappers > .nav-button > .fa-solid {
     font-size: 2em;
-
 }

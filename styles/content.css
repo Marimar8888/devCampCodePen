@@ -7,6 +7,93 @@
     font-family: Roboto, sans-serif;
     color: white; /* Cambia el color del texto para que sea legible en el fondo oscuro */
     display: flex;
-    justify-content: center;
+    width: 100%;
+
+}
+
+.content-wrapper > .content-columns-wrapper {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+    height: 500px;
+   
+}
+.content-wrapper > .content-columns-wrapper > .content-left-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px 25px 20px 40px;
+   
+    
+}
+.content-wrapper > .content-columns-wrapper > .content-left-column p {
+    font-family: Roboto, sans-serif;
+    font-size: 2.4em;
+    text-align: left;
+    margin-bottom: 10px;
+    color:rgb(201, 195, 195);
+    font-weight: 100;
+}
+.content-wrapper > .content-columns-wrapper > .content-left-column > .font-small {
+    font-size: 2em;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column p > .font-bold {
+    font-weight: 900;
+    color: white;
+}
+
+.content-left-column > .content-left-column-btn {
+    margin-top: 20px;
+}
+
+.content-left-column > .content-left-column-btn > .btn-free {
+    background-color: rgb(16, 203, 16);
+    padding: 20px;
+    border-radius: 5%;
+    border: none;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    
+}
+.content-left-column > .content-left-column-btn > .btn-learn {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5%;
+    border: none;
+    font-size: 1.6em;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    
+}
+
+
+.content-wrapper > .content-columns-wrapper > .content-right-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 60px;
+
+
+}
+.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img {
+    align-self: flex-end;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column img {
+    width: 650px;
+    height: 450px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column p {
+    margin-bottom: 0;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img > p > .color-blue{ 
+    color: rgb(86, 186, 240);
+    font-weight: bold;
 }
