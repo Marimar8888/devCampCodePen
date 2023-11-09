@@ -29,13 +29,18 @@
     
 }
 .content-wrapper > .content-columns-wrapper > .content-left-column p {
-    font-family: Roboto, sans-serif;
+    font-family: lato, sans-serif;
     font-size: 2.4em;
     text-align: left;
     margin-bottom: 10px;
     color:rgb(201, 195, 195);
     font-weight: 100;
 }
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .second {
+    line-height: 1.5;
+}
+
 .content-wrapper > .content-columns-wrapper > .content-left-column > .font-small {
     font-size: 2em;
 }
@@ -55,10 +60,9 @@
     border-radius: 5%;
     border: none;
     font-size: 1.6em;
-    letter-spacing: 1px;
     margin-right: 10px;
-    
 }
+
 .content-left-column > .content-left-column-btn > .btn-learn {
     background-color: black;
     color: white;
@@ -66,9 +70,7 @@
     border-radius: 5%;
     border: none;
     font-size: 1.6em;
-    margin-right: 10px;
-    letter-spacing: 1px;
-    
+    margin-right: 10px;   
 }
 
 
@@ -90,7 +92,7 @@
 }
 
 .content-wrapper > .content-columns-wrapper > .content-right-column p {
-    margin-bottom: 0;
+    margin-bottom: 4px;
 }
 
 .content-wrapper > .content-columns-wrapper > .content-right-column > .content-img > p > .color-blue{ 
