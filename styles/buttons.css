@@ -20,12 +20,18 @@
 .links-buttons-wrapper > .buttons > .button-link-content button{
     height: 50px;
     width: 100%;
-    background-color: #625e5e5f; 
+    background-color: #8a88885f; 
     border: 2px solid #555; 
     color: white;
     font-size: 1.1em;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer;    
+    transition: 1s;
+
+}
+
+.links-buttons-wrapper > .buttons > .button-link-content button:hover{
+    background-color: #6d6c6c5f;
 }
 
 .links-buttons-wrapper > .buttons > .button-link-content > .link-button > .font-bold {

@@ -20,6 +20,7 @@
 }
 .navigation-wrapper > .left-column > .logo img{
     width: 100%;
+    cursor: pointer;
 }
 
 /*Center-column Common Styles*/
@@ -49,11 +50,22 @@
    color: white;
    font-weight: 900;
    font-size: 1.4em;
+   transition: 1s;
 }
+
+.links-wrapper  > .nav-link  a:hover {
+    color: grey;
+}
+
 .links-wrapper > .nav-link #spark{
     color: grey;
     font-size: 1.2em;
     margin-left: 20px;
+    transition: 1s;
+}
+
+.links-wrapper > .nav-link #spark:hover{
+    color: white;
 }
 
 /*Right-column Common Styles*/
@@ -81,11 +93,15 @@
     width: 120px;
     color: white;
     font-weight: 500;
-    background-color: #9693935f; 
+    background-color: #8a88885f; 
     border: none;  
     border-radius: 5%;
     font-size: 1.2em;
     cursor: pointer;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button:hover {
+    background-color: #6d6c6c5f;
 }
 
 .nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
