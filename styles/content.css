@@ -6,7 +6,6 @@
     height: 100vh; /* Asegura que el degradado cubra toda la altura de la ventana */
     font-family: Roboto, sans-serif;
     color: white; /* Cambia el color del texto para que sea legible en el fondo oscuro */
-    display: flex;
     width: 100%;
 
 }
@@ -19,15 +18,17 @@
     height: 500px;
    
 }
+
+/*  left-column styles */
+
 .content-wrapper > .content-columns-wrapper > .content-left-column {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 50%;
     padding: 10px 25px 20px 40px;
-   
-    
 }
+
 .content-wrapper > .content-columns-wrapper > .content-left-column p {
     font-family: lato, sans-serif;
     font-size: 2.4em;
@@ -48,6 +49,11 @@
 .content-wrapper > .content-columns-wrapper > .content-left-column p > .font-bold {
     font-weight: 900;
     color: white;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column i {
+    transform-origin: center;
+    transform: rotate(325deg);
 }
 
 .content-left-column > .content-left-column-btn {
@@ -73,6 +79,8 @@
     margin-right: 10px;   
 }
 
+
+/*  Right-column styles */
 
 .content-wrapper > .content-columns-wrapper > .content-right-column {
     display: flex;

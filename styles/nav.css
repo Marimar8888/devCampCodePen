@@ -85,6 +85,7 @@
     border: none;  
     border-radius: 5%;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
