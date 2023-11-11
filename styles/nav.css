@@ -8,10 +8,13 @@
     text-align: left;
     align-items: center;
     font-family: inherit;
-    
 }
 
 /*Left-column Common Styles*/
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: left;
+}
 .navigation-wrapper > .left-column > .logo {
     display: flex;
     align-items: left;
