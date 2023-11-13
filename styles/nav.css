@@ -69,6 +69,50 @@
 
 .links-wrapper > .nav-link #spark:hover{
     color: white;
+    
+}
+
+.links-wrapper > .nav-link #spark:hover  .right-column{
+    margin-top: 30px;
+}
+
+.links-wrapper > .nav-link > .dropdown {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.links-wrapper > .nav-link > .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-wrapper > .nav-link > .dropdown li {
+    padding: 0px;
+    text-align: center;
+    margin-top: 0;
+   
+}
+
+.links-wrapper > .nav-link > .dropdown a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link > .dropdown a:hover {
+    background-color: #444141;
+}
+
+
+.links-wrapper > .nav-link:hover .dropdown {
+    display: block;
 }
 
 /*Right-column Common Styles*/
@@ -90,6 +134,7 @@
     width: 100%;
     padding: 10px 20px;
 }
+
 
 .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
     padding: 15px;
