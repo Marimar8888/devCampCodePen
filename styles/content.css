@@ -1,5 +1,5 @@
 .content-wrapper {
-    background: linear-gradient(to top, #000, #565555);
+    background: linear-gradient(to top, #000, #8b8a8a);
     margin: 0;
     padding: 20px; /* Ajusta según sea necesario */
     font-family: Roboto, sans-serif;
@@ -98,7 +98,6 @@
     flex-direction: column;
     width: 50%;
     padding-top: 60px;
-
 
 }
 .content-wrapper > .content-columns-wrapper > .content-right-column > .content-img {
