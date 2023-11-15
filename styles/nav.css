@@ -1,4 +1,4 @@
-/* Common nav styles*/
+/* ------------------ Common nav styles ------------------*/
 .navigation-wrapper {
     height: 80px;
     background-color: black;
@@ -10,14 +10,13 @@
     font-family: inherit;
 }
 
-/*Left-column Common Styles*/
+/* ------------------Left-column Common Styles ------------------*/
 .navigation-wrapper > .left-column {
     display: flex;
     align-items: left;
 }
 .navigation-wrapper > .left-column > .logo {
     display: flex;
-    align-items: left;
     width: 200px;
     padding-left: 10px;
 }
@@ -26,7 +25,7 @@
     cursor: pointer;
 }
 
-/*Center-column Common Styles*/
+/* ------------------ Center-column Common Styles ------------------*/
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
@@ -69,7 +68,6 @@
 
 .links-wrapper > .nav-link #spark:hover{
     color: white;
-    
 }
 
 .links-wrapper > .nav-link #spark:hover  .right-column{
@@ -93,13 +91,13 @@
 
 .links-wrapper > .nav-link > .dropdown li {
     padding: 0px;
-    text-align: center;
+    text-align: left;
     margin-top: 0;
    
 }
 
 .links-wrapper > .nav-link > .dropdown a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -115,7 +113,7 @@
     display: block;
 }
 
-/*Right-column Common Styles*/
+/* ------------------ Right-column Common Styles ------------------ */
 .navigation-wrapper > .right-column {
     display: grid;
     grid-template-columns: 1fr;
@@ -152,10 +150,54 @@
     background-color: #6d6c6c5f;
 }
 
-.nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
     color: rgb(16, 203, 16);
 }
 
-.nav-buttons-wrappers > .nav-button > .fa-solid {
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button > .fa-solid {
     font-size: 2em;
 }
+
+/* ------------------ Right-column dropdown menu-button Common Styles ------------------ */
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button li {
+    padding: 0px;
+    text-align: left;
+    margin-top: 0;
+   
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    display: block;
+    font-weight: 900;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button a:hover {
+    background-color: #444141;
+}
+
+
+.nav-buttons-wrappers > .nav-button:hover .dropdown-button {
+    display: block;
+}
+

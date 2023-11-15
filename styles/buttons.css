@@ -1,3 +1,4 @@
+/* ------------------ Buttons end of the page styles ------------------ */
 .links-buttons-wrapper {
     width: 100%;
     height: 50px;
@@ -7,7 +8,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .links-buttons-wrapper > .buttons > .button-link-content {
@@ -17,6 +18,7 @@
     border-radius: 5%;
     font-size: 1.2em;
 }
+
 .links-buttons-wrapper > .buttons > .button-link-content button{
     height: 50px;
     width: 100%;
@@ -27,7 +29,6 @@
     text-align: center;
     cursor: pointer;    
     transition: 1s;
-
 }
 
 .links-buttons-wrapper > .buttons > .button-link-content button:hover{

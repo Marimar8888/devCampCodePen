@@ -1,109 +1,15 @@
-@media (max-width: 1400px) {
-    /* nav styles */
-    .navigation-wrapper > .left-column > .logo {
-        width: 160px;
-    }
+/* ------------------ SCREAM MAX-WIDTH 760px ------------------ */
 
-    .navigation-wrapper > .center-column > .links-wrapper  {
-        width: 400px;
-    }
-
-    .navigation-wrapper > .center-column > .links-wrapper  > .nav-link  a {   
-        font-size: 1.2em;
-     }
-
-     .links-wrapper > .nav-link #spark{
-        font-size: 1em;
-        margin-left: 0px;
-
-    }
-
-    /*Center-column Common Styles*/
-    .navigation-wrapper > .center-column {
-        width: 400px;
-        margin: 0 30px 0 30px;
-
-    }
-
-    .navigation-wrapper > .right-column {
-        width: 400px;  
-    }
-
-    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
-        color: gray;
-        width: 100%;
-        padding: 5px 5px;
-    }
-
-    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
-        font-size: 1em;
-        width: 100px;
-    }
-
-    .nav-buttons-wrappers > .nav-button > .fa-solid {
-        font-size: 1.6em;
-    }
-
-    .content-wrapper > .content-columns-wrapper > .content-right-column img {
-        width: 500px;
-        height: 350px;
-    }
-
-}
-
-
-@media (max-width: 1024px) {
-/* nav styles */
-    .navigation-wrapper {
-        margin: 10px;
-        flex-wrap: wrap;
-        height: 160px;
-      }
-    
-      .navigation-wrapper > .center-column {
-        order: 0; 
-        width: 100%;
-        margin-top: 20px; 
-      }
-    
-      .navigation-wrapper > .right-column {
-        order: 1; 
-        width: 450px;
-        margin-top: 20px; 
-      }
-
-    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
-        color: gray;
-        width: 100%;
-        padding: 5px 5px;
-        margin-bottom: 5px;
-    }
-
-    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
-        font-size: 1em;
-        width: 100px;
-    }
-    .navigation-wrapper > .right-column > .nav-buttons-wrappers >  #search {
-        padding-right: 15px;
-        width: 60px;
-    }
-    
-    /* Content Styles */
-    .content-wrapper > .content-columns-wrapper > .content-right-column img {
-        width: 400px;
-        height: 250px;
-    }
-}
-
-
-@media (max-width: 615px) {
-    /*nav styles*/
+@media (max-width: 760px) {
+    /* ------------------ nav styles ------------------*/
        .navigation-wrapper {
            flex-direction: column;
            height: 100%;
            align-items: flex-start;
            width: 100%;
        }
+    
+    /* ------------------ nav styles left column ------------------*/
    
        .navigation-wrapper > .left-column {
            order: 1;
@@ -112,10 +18,13 @@
        }
    
        .navigation-wrapper > .left-column > .logo {
+          /* content: url("/images/querie.png");*/
            width: 160px;
            padding: 20px 0 20px 20px;
        }
    
+    /* ------------------ nav styles center column ------------------*/
+
        .navigation-wrapper > .center-column {
            order: 2;
            width: 100%;
@@ -142,6 +51,7 @@
    
        .navigation-wrapper > .center-column > .links-wrapper > .nav-link:hover .dropdown {
            display: block;
+           margin-left: 50px;
            transition: opacity 0.3s ease;
        }
    
@@ -149,36 +59,40 @@
            font-size: 1.2em;
        }
    
+    /* ------------------ nav styles right column ------------------*/
+   
        .navigation-wrapper > .right-column {
            order: 3;
            margin-top: 15px;
-           align-items: flex-start;
+           display: flex;
            width: 100%;
        }  
    
-   
        .navigation-wrapper > .right-column > .nav-buttons-wrappers {
-           width: 100%;
-           display: flex;
-           align-items: center;
+        display: flex;   
+        width: 100%;
        }
    
        .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
            color: gray;
            width: 100%;
-           padding: 5px 10px;
+           padding: 5px 5px;
        }
        
        .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
-           padding: 10px;
-           width: 120px;
-           font-size: 1em;
+           padding: 10px 0;
+           width: 110px;
+           font-size: 0.9em;
        }
+       .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button > .dropdown-button a {
+        font-size: 1em;
+        }
    
-       /* Content Styles */
+       /* ------------------ Content Styles ------------------ */
    
        .content-wrapper {
            width: 100%;
+           height: 100%;
            margin: 0 auto;
            text-align: center;
            padding: 0;
@@ -190,20 +104,39 @@
            align-items: center; 
            text-align: center; 
        }
+
+        /* ------------------ Content left-column Styles ------------------ */
    
        .content-wrapper > .content-columns-wrapper > .content-left-column {
            width: 100%;
-       }
-       
+       }   
+
        .content-wrapper > .content-columns-wrapper > .content-left-column p {
-           padding: 0;
-           margin: 0;
-           font-size: 2em;
+           padding:0;
+           font-size: 1.6em;
        }
        .content-wrapper > .content-columns-wrapper > .content-left-column > .second {
            padding-top: 20px;
+           font-size: 1.2em;
        }
+
+       .content-columns-wrapper > .content-left-column > .content-left-column-btn {
+            margin-top: 40px;
+        }
+
+        .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn {
+            margin-top: 20px;
+            background-color: rgb(60, 59, 59);
+            transition: 0.5s;
+            margin-bottom: 0;
+        }
+
+        .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn:hover {
+            background-color: rgb(44, 44, 44);
+        }
    
+        /* ------------------ Content Right-column Styles ------------------ */
+
        .content-wrapper > .content-columns-wrapper > .content-right-column {
            width: 100%;
            padding: 0px;
@@ -214,7 +147,6 @@
           justify-content: center;
           flex-direction: column;
           align-items: center;
-         
        }
        
        .content-columns-wrapper > .content-right-column > .content-img img {
@@ -223,26 +155,11 @@
            height: 100%; 
        }
    
-       .content-columns-wrapper > .content-left-column > .content-left-column-btn {
-           margin-top: 40px;
-       }
-   
-       .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn {
-           margin-top: 20px;
-           background-color: rgb(60, 59, 59);
-           transition: 0.5s;
-           margin-bottom: 0;
-       }
-   
-       .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn:hover {
-           background-color: rgb(44, 44, 44);
-       }
-   
-   
+        /* ------------------ Buttons end of the page styles ------------------ */
+
        .links-buttons-wrapper {
            width: 100%;
            margin: 10px auto; 
-          
        }
    
        .links-buttons-wrapper > .buttons {

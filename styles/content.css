@@ -1,3 +1,4 @@
+/* ------------------ Content Styles ------------------ */
 .content-wrapper {
     background: linear-gradient(to top, #000, #8b8a8a);
     margin: 0;
@@ -7,7 +8,6 @@
     width: 100%;
     box-sizing: border-box; 
     display: flex;
-  
 }
 
 .content-wrapper > .content-columns-wrapper {
@@ -16,10 +16,9 @@
     align-items: center;
     padding-top: 20px;
     height: auto;
-   
 }
 
-/*  left-column styles */
+/* ------------------ left-column styles  ------------------ */
 
 .content-wrapper > .content-columns-wrapper > .content-left-column {
     display: flex;
@@ -56,11 +55,11 @@
     transform: rotate(325deg);
 }
 
-.content-left-column > .content-left-column-btn {
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn {
     margin-top: 20px;
 }
 
-.content-left-column > .content-left-column-btn > .btn-free {
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-free {
     background-color: rgb(16, 203, 16);
     padding: 20px;
     border-radius: 5%;
@@ -70,13 +69,12 @@
     transition: 1s;
 }
 
-.content-left-column > .content-left-column-btn > .btn-free:hover {
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-free:hover {
     background-color: rgb(6, 139, 6);
     color: white;
 }
 
-
-.content-left-column > .content-left-column-btn > .btn-learn {
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn {
     background-color: black;
     color: white;
     padding: 20px;
@@ -87,22 +85,17 @@
     transition: 1s;
 }
 
-.content-left-column > .content-left-column-btn > .btn-learn:hover {
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn:hover {
     background-color: #6d6c6c5f;
 }
 
-
-/*  Right-column styles */
+/* ------------------ Right-column styles ------------------ */
 
 .content-wrapper > .content-columns-wrapper > .content-right-column {
     display: flex;
     flex-direction: column;
     width: 50%;
     padding-top: 60px;
-
-}
-.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img {
-    align-self: flex-end;
 }
 
 .content-wrapper > .content-columns-wrapper > .content-right-column img {
@@ -112,6 +105,10 @@
 
 .content-wrapper > .content-columns-wrapper > .content-right-column p {
     margin-bottom: 4px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img {
+    align-self: flex-end;
 }
 
 .content-wrapper > .content-columns-wrapper > .content-right-column > .content-img > p > .color-blue{ 

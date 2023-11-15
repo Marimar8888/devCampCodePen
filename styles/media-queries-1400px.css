@@ -1,0 +1,66 @@
+/* ------------------ SCREAM MAX-WIDTH 1400px ------------------ */
+@media (max-width: 1400px) {
+    /* ------------------ nav styles left-column ------------------ */
+    .navigation-wrapper > .left-column > .logo {
+        width: 160px;
+    }
+
+    .navigation-wrapper > .center-column > .links-wrapper  {
+        width: 400px;
+    }
+
+    .navigation-wrapper > .center-column > .links-wrapper  > .nav-link  a {   
+        font-size: 1.2em;
+     }
+
+     .links-wrapper > .nav-link #spark{
+        font-size: 1em;
+        margin-left: 0px;
+    }
+
+    /* ------------------ Nav style Center-column ------------------ */
+    .navigation-wrapper > .center-column {
+        width: 400px;
+        margin: 0 30px 0 30px;
+
+    }
+
+    /* ------------------ Nav style Right-column  ------------------ */
+
+    .navigation-wrapper > .right-column {
+        width: 400px;  
+    }
+
+    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
+        color: gray;
+        width: 100%;
+        padding: 5px 5px;
+    }
+
+    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
+        font-size: 1em;
+        width: 100px;
+    }
+
+    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button > .fa-solid {
+        font-size: 1.6em;
+    }
+
+    /* ------------------ Content style Left-column  ------------------ */
+
+    .content-wrapper > .content-columns-wrapper > .content-left-column p {
+        font-size: 2em;
+    }
+
+    .content-wrapper > .content-columns-wrapper > .content-left-column > .font-small {
+        font-size: 1.6em;
+    }
+
+     /* ------------------ Content style Right-column  ------------------ */
+
+    .content-wrapper > .content-columns-wrapper > .content-right-column img {
+        width: 500px;
+        height: 350px;
+    }
+
+}
