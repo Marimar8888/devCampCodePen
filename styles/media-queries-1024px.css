@@ -1,0 +1,59 @@
+/* ------------------ SCREAM MAX-WIDTH 1024px ------------------ */
+
+@media (max-width: 1024px) {
+/* ------------------ nav styles ------------------ */
+    .navigation-wrapper {
+        margin: 10px;
+        flex-wrap: wrap;
+        height: 160px;
+    }
+/* ------------------ nav styles center column ------------------ */
+    
+    .navigation-wrapper > .center-column {
+        order: 0; 
+        width: 100%;
+        margin-top: 20px; 
+    }
+/* ------------------ nav styles right column ------------------ */
+
+    .navigation-wrapper > .right-column {
+        order: 1; 
+        width: 450px;
+        margin-top: 20px; 
+    }
+
+    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
+        color: gray;
+        width: 100%;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+    }
+
+    .navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
+        font-size: 1em;
+        width: 100px;
+    }
+    .navigation-wrapper > .right-column > .nav-buttons-wrappers >  #search {
+        padding-right: 15px;
+        width: 60px;
+    }
+    
+    /* ------------------ Content Styles left column ------------------ */
+    
+    .content-wrapper > .content-columns-wrapper > .content-left-column p {
+        font-size: 1.8em;
+        margin-right: 10px;
+    }
+
+    .content-wrapper > .content-columns-wrapper > .content-left-column > .font-small {
+        font-size: 1.4em;
+    }
+
+    /* ------------------ Content Styles right column ------------------ */
+
+    .content-wrapper > .content-columns-wrapper > .content-right-column img {
+        width: 400px;
+        height: 250px;
+    }
+}
+

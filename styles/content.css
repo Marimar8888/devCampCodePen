@@ -1,0 +1,123 @@
+/* ------------------ Content Styles ------------------ */
+.content-wrapper {
+    background: linear-gradient(to top, #000, #8b8a8a);
+    margin: 0;
+    padding: 20px; 
+    font-family: Roboto, sans-serif;
+    color: white;
+    width: 100%;
+    box-sizing: border-box; 
+    display: flex;
+}
+
+.content-wrapper > .content-columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    height: auto;
+}
+
+/* ------------------ left-column styles  ------------------ */
+
+.content-wrapper > .content-columns-wrapper > .content-left-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px 25px 20px 40px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column p {
+    font-family: lato, sans-serif;
+    font-size: 2.4em;
+    text-align: left;
+    margin-bottom: 10px;
+    color:rgb(201, 195, 195);
+    font-weight: 100;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .second {
+    line-height: 1.5;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .font-small {
+    font-size: 2em;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column p > .font-bold {
+    font-weight: 900;
+    color: white;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column i {
+    transform-origin: center;
+    transform: rotate(325deg);
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn {
+    margin-top: 20px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-free {
+    background-color: rgb(16, 203, 16);
+    padding: 20px;
+    border-radius: 5%;
+    border: none;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: 1s;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-free:hover {
+    background-color: rgb(6, 139, 6);
+    color: white;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5%;
+    border: none;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-right: 10px;   
+    transition: 1s;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-left-column > .content-left-column-btn > .btn-learn:hover {
+    background-color: #6d6c6c5f;
+}
+
+/* ------------------ Right-column styles ------------------ */
+
+.content-wrapper > .content-columns-wrapper > .content-right-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 60px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column img {
+    width: 650px;
+    height: 450px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column p {
+    margin-bottom: 4px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img {
+    align-self: flex-end;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img > p {
+    padding-left: 10px;
+}
+
+.content-wrapper > .content-columns-wrapper > .content-right-column > .content-img > p > .color-blue{ 
+    color: rgb(86, 186, 240);
+    font-weight: bold;
+}

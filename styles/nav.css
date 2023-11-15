@@ -1,0 +1,208 @@
+/* ------------------ Common nav styles ------------------*/
+.navigation-wrapper {
+    height: 80px;
+    background-color: black;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    font-family: inherit;
+}
+
+/* ------------------Left-column Common Styles ------------------*/
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: left;
+}
+.navigation-wrapper > .left-column > .logo {
+    display: flex;
+    width: 200px;
+    padding-left: 10px;
+}
+.navigation-wrapper > .left-column > .logo img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* ------------------ Center-column Common Styles ------------------*/
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 560px;
+    margin: 0 180px 0 100px;
+
+}
+
+.title-links > .title {
+    color: #e2dc32;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.links-wrapper  > .nav-link{
+    margin-right: 10px;
+}
+
+.links-wrapper  > .nav-link  a {
+   text-decoration: none;
+   color: white;
+   font-weight: 900;
+   font-size: 1.4em;
+   transition: 1s;
+}
+
+.links-wrapper  > .nav-link  a:hover {
+    color: grey;
+}
+
+.links-wrapper > .nav-link #spark{
+    color: grey;
+    font-size: 1.2em;
+    margin-left: 20px;
+    transition: 1s;
+    padding-right: 10px;
+}
+
+.links-wrapper > .nav-link #spark:hover{
+    color: white;
+}
+
+.links-wrapper > .nav-link #spark > i > .fa-solid, .fa-chevron-down{
+    color: grey;
+}
+
+.links-wrapper > .nav-link #spark:hover  .right-column{
+    margin-top: 30px;
+}
+
+.links-wrapper > .nav-link > .dropdown {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.links-wrapper > .nav-link > .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-wrapper > .nav-link > .dropdown li {
+    padding: 0px;
+    text-align: left;
+    margin-top: 0;
+   
+}
+
+.links-wrapper > .nav-link > .dropdown a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link > .dropdown a:hover {
+    background-color: #444141;
+}
+
+
+.links-wrapper > .nav-link:hover .dropdown {
+    display: block;
+}
+
+/* ------------------ Right-column Common Styles ------------------ */
+.navigation-wrapper > .right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 550px;
+   
+}
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button {
+    color: gray;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button {
+    padding: 15px;
+    width: 120px;
+    color: white;
+    font-weight: 500;
+    background-color: #8a88885f; 
+    border: none;  
+    border-radius: 5%;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button button:hover {
+    background-color: #6d6c6c5f;
+}
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button > .btn-create > .fa-chevron-down{
+    color: rgb(16, 203, 16);
+}
+
+.navigation-wrapper > .right-column > .nav-buttons-wrappers > .nav-button > .fa-solid {
+    font-size: 2em;
+}
+
+/* ------------------ Right-column dropdown menu-button Common Styles ------------------ */
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button li {
+    padding: 0px;
+    text-align: left;
+    margin-top: 0;
+   
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    display: block;
+    font-weight: 900;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.nav-buttons-wrappers > .nav-button > .dropdown-button a:hover {
+    background-color: #444141;
+}
+
+
+.nav-buttons-wrappers > .nav-button:hover .dropdown-button {
+    display: block;
+}
+
