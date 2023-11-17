@@ -25,6 +25,7 @@ Este repositorio contiene los siguientes archivos y carpetas:
 - `nav.css`: El archivo CSS que contiene los estilos para la nav.
 - `content.css`: El archivo CSS que contiene los estilos para del contenido.
 - `buttons.css`: El archivo CSS que contiene los estilos para los botones del fondo de página.
+- `footer.css`: El archivo CSS que contiene los estilos para el pie de página.
 - `media-queries-760px.css`: El archivo CSS que contiene los estilos del responsive.
 - `media-queries-1024px.css`: El archivo CSS que contiene los estilos del responsive.
 - `media-queries-1400px.css`: El archivo CSS que contiene los estilos del responsive.
