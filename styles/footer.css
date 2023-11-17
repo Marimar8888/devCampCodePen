@@ -11,7 +11,11 @@ footer {
 }
 
 .footer-adress {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
 }
 
 .social-icons a {

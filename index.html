@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/images/black.png" type="image/png">
+    <link rel="icon" href="images/black.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&amp;display=swap" rel="stylesheet">
 
@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="styles/media-queries-760px.css">
     <link rel="stylesheet" href="styles/media-queries-1400px.css">
    
-
+   
 
     <title>CodePen</title>
-</head>
+</head> 
 <body>
     <body>
+        <!------------- nav ---------------------->
         <div class="navigation-wrapper">
             <div class="left-column">
                 <div class="logo">
@@ -84,18 +85,19 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div class="nav-button">
-                        <button class="btn-login">
+                        <button class="btn-login" id="btn-login" href="https://codepen.io/login">
                             Log In                        
                         </button>
                     </div>
                     <div class="nav-button">
-                        <button class="btn-signup">
+                        <button class="btn-signup" id="btn-signup">
                             Sign Up
                         </button>
                     </div>
                 </div>
             </div>
         </div>
+        <!------------- content ---------------------->
         <div class="content-wrapper">
             <div class="content-columns-wrapper">
                 <div class="content-left-column">
@@ -131,20 +133,29 @@
                 </div>
             </div>
         </div>
-         <!-- Footer -->
-    <footer>
-        <div class="footer-wrapper">
-            <div class="footer-adress">
-                <p>Avenida Madrid 16 Bajo</p>
-                <p>48000 Madrid</p>
+         <!------------- Footer --------------->
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-adress">
+                    <p>Avenida Madrid 16 Bajo - (48000) Madrid</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>  
+                    <a href="https://es.linkedin.com/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="https://es-es.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>          
+                </div>
+                <div class="copyright-wrapper">
+                    &copy; 2023 Devcamp &#124; All rights reserved
+                </div>
             </div>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 <script src="https://kit.fontawesome.com/423426b767.js" crossorigin="anonymous"></script>
+<script src="js/buttons.js"></script>
 </html>
